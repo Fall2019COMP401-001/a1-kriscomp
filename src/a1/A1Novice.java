@@ -6,13 +6,14 @@ public class A1Novice {
 
 	public static void main(String[] args) {
 		
+		Scanner scan = new Scanner(System.in);
+		
 		int personNumber, itemNumber;
 		char firstInitial;
 		String[] name = new String[9999];
 		String[] costListStr = new String[9999];
 		double[] cost = new double[9999];
 		String read;
-		Scanner scan = new Scanner(System.in);
 		
 		personNumber = Integer.valueOf(scan.next());
 		for (int k = 1; k <= personNumber; k ++) {
