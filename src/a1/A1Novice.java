@@ -23,7 +23,7 @@ public class A1Novice {
 			for (int i = 0; i < itemNumber; i ++) {
 				read = scan.next();
 				scan.next();
-				cost[k] += Double.valueOf(scan.next()) * Integer.valueOf(readIn);
+				cost[k] += Double.valueOf(scan.next()) * Integer.valueOf(read)
 			}
 			costListStr[k] = String.format("%.2f", cost[k]);
 		}
