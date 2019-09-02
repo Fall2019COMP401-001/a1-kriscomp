@@ -24,11 +24,11 @@ public class A1Novice {
 				scan.next();
 				cost[k] += Double.valueOf(scan.next()) * Integer.valueOf(readIn);
 			}
-			costListStr[i] = String.format("%.2f", cost[i]);
+			costListStr[k] = String.format("%.2f", cost[k]);
 		}
 		scan.close();
 		for (int j = 0; j < personNumber; j ++) {
-			System.out.println(name[j] + ": "+ costListStr[i]);
+			System.out.println(name[j] + ": "+ costListStr[j]);
 		}
 	}
 }
